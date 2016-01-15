@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "As a rider I can see the list of rides available with the following:",
+        "description": "",
+        "id": "display-the-list-of-rides-available;as-a-rider-i-can-see-the-list-of-rides-available-with-the-following:",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 184076462,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Rides present in database",
+            "match": {
+              "location": "DisplayRides.Rides_present_in_database()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1254311,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the application, it is default page",
+            "match": {
+              "location": "DisplayRides.Open_the_application_it_is_default_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2739722,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User able to see posted rides: In tabular format.Start time,Source,Destination,Published ID,Button (\"Book\")",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Book",
+                  "offset": 101
+                }
+              ],
+              "location": "DisplayRides.User_able_to_see_posted_rides_In_tabular_format_Start_time_Source_Destination_Published_ID_Button_(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Display the list of rides available",
+    "description": "",
+    "id": "display-the-list-of-rides-available",
+    "keyword": "Feature",
+    "uri": "DisplayRide.feature"
+  }
+]

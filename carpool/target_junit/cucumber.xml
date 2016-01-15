@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.18807">
+<testcase classname="Display the list of rides available" name="As a rider I can see the list of rides available with the following:" time="0.18807">
+<system-out><![CDATA[Given Rides present in database.............................................passed
+When Open the application, it is default page...............................passed
+Then User able to see posted rides: In tabular format.Start time,Source,Destination,Published ID,Button ("Book").passed
+]]></system-out>
+</testcase>
+</testsuite>
